@@ -1,7 +1,13 @@
 
 
-console.log("Test from file");
 
+
+
+
+function display() {
+	console.log("Test from file");
+
+}
 
 
 
