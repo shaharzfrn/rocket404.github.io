@@ -5,10 +5,10 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    gen_item(document.getElementById("test1"), 7);
-    gen_item(document.getElementById("test1"), 8);
-    gen_item(document.getElementById("test1"), 9);
-    document.getElementById("test1").innerHTML = document.getElementById("test1").innerHTML;
+    // gen_item(document.getElementById("test1"), 7);
+    // gen_item(document.getElementById("test1"), 8);
+    // gen_item(document.getElementById("test1"), 9);
+    // document.getElementById("test1").innerHTML = document.getElementById("test1").innerHTML;
 
     // Navbar shrink function
     var navbarShrink = function () {
@@ -68,6 +68,37 @@ function gen_item(grid, id) {
                     </div>"
 
 
+    document.body.innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal"'+id+'"aria-hidden="true">\
+            <div class="modal-dialog modal-xl">\
+                <div class="modal-content">\
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>\
+                    <div class="modal-body text-center pb-5">\
+                        <div class="container">\
+                            <div class="row justify-content-center">\
+                                <div class="col-lg-8">\
+                                    <!-- Portfolio Modal - Title-->\
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>\
+                                    <!-- Icon Divider-->\
+                                    <div class="divider-custom">\
+                                        <div class="divider-custom-line"></div>\
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>\
+                                        <div class="divider-custom-line"></div>\
+                                    </div>\
+                                    <!-- Portfolio Modal - Image-->\
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />\
+                                    <!-- Portfolio Modal - Text-->\
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>\
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">\
+                                        <i class="fas fa-times fa-fw"></i>\
+                                        Close Window\
+                                    </button>\
+                                </div>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>\
+            </div>\
+        </div>'
 
     item = {}
     /*
