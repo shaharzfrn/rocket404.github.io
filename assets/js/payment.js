@@ -44,7 +44,7 @@ document.body.onload = function () {
         let year = document.getElementById('years');
         year = parseInt(year.options[year.selectedIndex].value,10);
 
-        var english = /^[A-Za-z]*$/;
+        var english = /^[A-Za-z\s]*$/;
         var number = /^[0-9]*$/;
 
         if (owner.value.length == 0 || !english.test(owner.value)) {
