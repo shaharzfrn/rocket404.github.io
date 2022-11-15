@@ -35,3 +35,8 @@ tr > td:nth-child(4) {
 .max-w {
     width: auto !important;
 }
+
+
+.width {
+    width: 75%;
+}

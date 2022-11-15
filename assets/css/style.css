@@ -349,3 +349,8 @@ select.form-control:focus::-ms-value {
 .bg-plan {
     background-color: #f6f8fa;
 }
+
+
+.step {
+    text-align: left;
+}
