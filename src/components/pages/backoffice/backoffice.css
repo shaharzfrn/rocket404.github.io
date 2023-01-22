@@ -1,0 +1,7 @@
+.product-card {
+    border: double black;
+    border-radius: 5%;
+    
+    width: 50%;
+    text-align: center;
+}
